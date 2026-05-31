@@ -109,9 +109,6 @@ spotify-music-streaming-analytics/
    - artist summary
    - top tracks
 
-## Interview Explanation
-
-I built a Spotify music analytics data pipeline using Azure Data Factory, ADLS Gen2, Azure Databricks, PySpark, and Delta Lake. The source data is ingested into the Bronze layer, then cleaned and standardized in the Silver layer using PySpark transformations. Finally, Gold layer datasets are created for genre-level analysis, artist-level summaries, and track popularity insights. The project demonstrates Medallion Architecture, data cleansing, incremental load concept, and analytics-ready dataset preparation.
 
 ## Key Concepts Covered
 - ADF ingestion design
